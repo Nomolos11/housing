@@ -1,0 +1,501 @@
+/* general section */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: -10;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* nav-section */
+
+nav{
+    width: 50px ;
+    margin: 20px auto;
+}
+
+nav>#svg1{
+    width: 50px ;
+}
+    
+/* header section */
+.header-item{
+    display: flex;
+    align-items: center;
+}
+
+.header-text{
+    padding: 20px;
+}
+
+.header-text h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.header-text p{
+    margin-bottom: 2rem;
+}
+.easy{
+    font-size: 6rem;
+    color: #F1AE0E;
+    font-weight: bold;
+}
+
+.contact{
+    display: flex;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.contact #svg{
+    margin-right: 5px;
+    width: 3rem;
+    height: 3rem; 
+    fill: #F1AE0E;
+}
+
+.header-image img{
+    width: 600px;
+    transform: scaleX(-1);
+}
+
+
+
+/* section of best repair */
+
+section.best-repair{
+    background-color: white;
+}
+
+.best-repair-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    min-height: 80vh;
+}
+
+.best-repair h2 {
+    font-size: 4rem;
+    flex: 1;
+}
+
+.parent-div{
+    align-self: end;
+    flex: 1;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.best-repair h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.repair-box{
+    padding: 20px;
+}
+
+.customer-service{
+    background-color: #ffffff;
+}
+
+.booking{
+    background-color: #ABB686;
+    border-radius: 20px;
+}
+
+.pricing{
+    background-color: #F1AE0E;
+    border-radius: 20px;
+}
+
+.workers{
+    background-color:#ffffff;
+}
+
+
+
+/* about section */
+
+section.about{
+    background-color: #F2F2F2;
+}
+
+.about-item{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.about-item h5 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-size: 1.5rem;
+}
+
+.about-item h3{
+    font-size: 50px;
+    font-size: 3.5rem;
+}
+
+.article{
+    display: flex;
+    width: 70%;
+    align-self: end;
+    margin: 20px 0;
+}
+
+.article-1{
+    margin-right: 20px;
+    padding: 40px;
+}
+
+
+.article-2{
+    padding: 40px;
+}
+
+.about-contact{
+    align-self: flex-end;
+    display: flex;
+}
+
+/* repair services section */
+
+.repair-services{
+    background-color: #ABB686;
+    height: 80vh;
+    padding-top: 10rem;
+    z-index: -9;
+    position: relative;
+}
+
+.repair-services-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 80%;
+    margin: auto;
+    z-index: -8;
+}
+
+.repair-services-image{
+    flex: 1;
+    margin-top: -6rem;
+}
+
+.repair-services-image img{
+    height: 600px;
+}
+
+.repair-services-text{
+    flex: 1;
+    padding: 0 20px;
+}
+
+.repair-services-text h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #111111;
+    font-family: "Open Sans", sans-serif;
+}
+
+.repair-services-text p{
+    color: #111111;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.repair-services-text button{
+    background-color: #ABB686;
+    color: white;
+    font-size: 1.2rem;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 300;
+}
+
+/* curious section */
+
+.curious{
+    color: white;
+    background-color: #F1AE0E;
+    margin: 4rem 0;
+    padding: 6rem 0;
+
+}
+
+.curious-item{
+    display: flex;
+    justify-content: center;
+}
+
+.curious-text{
+    text-align: center;
+    width: 60%;
+}
+
+.curious-text h2{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.curious-text p{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.curious-text button{
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 300;
+}
+
+
+/* best services section */
+
+#svg-a1d3, .icon{
+    width: 80px;
+
+}
+
+.best-services{ 
+    text-align: center;
+}
+
+.best-repair-service-text h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.best-repair-service-text p{
+    margin: 1rem 0;    
+}
+
+.service-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.service-card{
+    padding: 80px;
+    border-radius: 40px;
+}
+
+.service-card:nth-child(2){
+    background-color: #ABB686;
+    color: white;
+}
+
+.service-card:nth-child(2) svg#svg-a1d3{
+    fill: white;
+}
+
+.service-card:nth-child(4){
+    background-color: #F2F2F2;
+}
+
+.service-card:nth-child(6){
+    background-color: #F2F2F2;
+}
+
+
+.service-card .icon-text{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* repair section */
+
+.repair{
+    color: #292D33;
+    margin: 40px 0;
+}
+
+.repair-item{
+    display: flex;
+    align-items: center;
+}
+
+.repair-text{
+    flex: 1;
+}
+
+.repair-text h2{
+    font-size: 2.5rem;
+}
+
+.repair-text h4{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.repair-text p{
+    margin: 40px 0;
+    width: 80%;
+}
+
+.repair-text button{
+    background-color: #ABB686;
+    color: white;
+    font-size: 1.2rem;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 300;
+}
+
+.repair-image {
+    flex: 1;
+}
+
+.repair-image img{
+    height: 100vh;
+}
+
+/* Comment section */
+
+.comment{
+    background-color: #F2F2F2;
+    padding: 80px;
+}
+
+.comment-item{
+    width: 80%;
+    margin: auto;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-item{
+    display: flex;
+}
+
+.card-avatar{
+    padding: 0 20px;
+}
+
+.comment h2{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.card-avatar img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.card-text p{
+    margin-bottom: 10px;
+}
+
+.site{
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.site, .site a{
+    color: #181818;
+}
+
+/* THE 2nd ENDDDDDD */
+
+.second-end{
+    background-color: #a1aa7e;
+    color: #FFFFFF;
+}
+
+.second-end-item{
+    padding: 40px;
+    text-align: center;
+}
+
+.second-end-item h2{
+    font-size: 3rem;
+}
+
+.second-end-item p{
+    margin: 20px auto;
+    width: 60%;
+}
+
+.contact-end{
+    display: flex;
+}
+
+.second-end-item .contact-end p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    align-self: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contact-end span svg#svg-end{
+   width: 48px;
+   margin-bottom: -12px;
+   fill: #f1ae0e;
+   padding-right: 8px;
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    background-color: #333333;
+    padding-bottom: 40px;
+}
+
+#footer p{
+    color: white;
+    padding-top: 60px;
+    font-size: 12px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+#footer p a{
+    color: white;
+}
